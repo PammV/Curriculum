@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <meta property="og:title" content="Curriculum Vitae" />
+    <meta property="og:type" content="Page" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <script src="./src/scripts/index.js" type="module"></script>
+    <!-- BOOSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+      />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      ></script>
+    <title>C.V</title>
+  </head>
+  <body >
+    <div class="col-12 col-lg-10 position-absolute top-0 start-50 translate-middle-x" >
+
+      <header>
+        <div class="row g-0 bg-body-secondary">
+          <div id="img-conteiner" class="col-md-4 mb-md-0 ">
+            <img
+              id="img-top"
+              src="..."
+              class="rounded-5 position-relative top-50 start-50 translate-middle"
+              alt="Imagen de usuario"
+            />
+          </div>
+          <div class="col-md-7 p-4 ps-md-0 text-center" id="presentation">
+            <h5 id="name" class="mt-0">Name</h5>
+            <p>Acerca de mí:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quisquam nulla, consequuntur hic voluptate illum nihil minima harum repellat iusto rem consectetur aperiam earum id illo, provident voluptatibus voluptatum culpa!</p>
+          </div>
+        </div>
+      </header>
+      
+      <nav>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="link_exp" data-bs-toggle="tab" data-bs-target="#experience" type="button" role="tab" aria-controls="experience" aria-selected="true">Experiencias laborales</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="link_dates" data-bs-toggle="tab" data-bs-target="#location" type="button" role="tab" aria-controls="location" aria-selected="false">Datos y ubicación</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="link_contac" data-bs-toggle="tab" data-bs-target="#contact_Information" type="button" role="tab" aria-controls="contact_Information" aria-selected="false">Contactar</button>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="tab-content" id="myTabContent">
+          
+          <div class="tab-pane fade show active" id="experience" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+            <div class=" card text-white bg-primary mb-3">
+
+              <div class="card-header">
+                <h5 class="card-title" id="position">Posición</h5>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">Compania:</h5>
+                <p class="card-text" id="company">Empresa S.A</p>
+
+                <h5 class="card-title">Tareas realizadas:</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere tenetur, magnam dolore accusamus corrupti dicta laboriosam obcaecati dolor asperiores praesentium? Distinctio blanditiis corporis saepe consequatur officia dignissimos mollitia porro dolorum.</p>
+              </div>
+            </div>
+  
+            <div class=" card text-white bg-primary mb-3">
+
+              <div class="card-header">
+                <h5 class="card-title" id="position">Posición</h5>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">Compania:</h5>
+                <p class="card-text" id="company">Empresa S.A</p>
+
+                <h5 class="card-title">Tareas realizadas:</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere tenetur, magnam dolore accusamus corrupti dicta laboriosam obcaecati dolor asperiores praesentium? Distinctio blanditiis corporis saepe consequatur officia dignissimos mollitia porro dolorum.</p>
+              </div>
+            </div>
+  
+            <div class=" card text-white bg-primary mb-3">
+
+              <div class="card-header">
+                <h5 class="card-title" id="position">Posición</h5>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">Compania:</h5>
+                <p class="card-text" id="company">Empresa S.A</p>
+
+                <h5 class="card-title">Tareas realizadas:</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere tenetur, magnam dolore accusamus corrupti dicta laboriosam obcaecati dolor asperiores praesentium? Distinctio blanditiis corporis saepe consequatur officia dignissimos mollitia porro dolorum.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <dl class="row">
+              <dt class="col-sm-3">Lugar de residencia:</dt>
+              <dd class="col-sm-9" >
+                <p id="ubication">Ciudad/Estado/Pais</p>
+              </dd>
+            
+              <dt class="col-sm-3">Dirección:</dt>
+              <dd class="col-sm-9">
+                <p id="street">Nombre/Dirección</p>
+              </dd>
+
+              <dt class="col-sm-3">Teléfono:</dt>
+              <dd class="col-sm-9" >
+                <a id="phone" href="tel:"></a>
+              </dd>
+
+              <dt class="col-sm-3">Celular:</dt>
+              <dd class="col-sm-9">
+                <a id="cell" href="tel:"></a>
+              </dd>
+            
+              <dt class="col-sm-3">Email:</dt>
+              <dd class="col-sm-9" >
+                <a href="mailto:email@email.com" id="email">Email</a>
+              </dd>
+            
+              <dt class="col-sm-3">Idiomas:</dt>
+              <dd class="col-sm-9">
+                <dl class="row" id="languajes">
+                  <dt class="col-sm-4">Ingles</dt>
+                  <dd class="col-sm-8">Avanzado</dd>
+                </dl>
+              </dd>
+
+              <dt class="col-sm-3">Educación:</dt>
+              <dd class="col-sm-9">
+                <dl class="row" id="education">
+                  <dt class="col-sm-4">Titulo</dt>
+                  <dd class="col-sm-8">Establecimiento</dd>
+                </dl>
+              </dd>
+            </dl>
+        
+          </div>
+        
+          <div class="tab-pane fade" id="contact_Information" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <form action="" method="" id="form">
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Motivo de consulta</option>
+                <option value="1">Contratación de servicio</option>
+                <option value="2">Oferta laboral</option>
+                <option value="3">Otros</option>
+              </select>
+              <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Consulta</label>
+                <textarea class="form-control" id="validationTextarea" required></textarea>
+                <div class="invalid-feedback">
+                  Por favor ingrese un mensaje.
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
