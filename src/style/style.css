@@ -23,3 +23,9 @@ body{
     left: 50%;
     transform: translate(-50%);
 }
+
+#form input,#form textarea,#form select  {
+    border: 3px;
+    border-style: double;
+    background-color: darkgray;
+}
